@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+}
+
+.headerpic {
+  border-radius: 60%;
+  height: 30vh;
+  width: 30vh;
+  margin-top: 5vh;
+  margin-left: 10vh;
+}
+
+.pic {
+  float: left;
+}
+
+.header-info {
+  margin-top: 6vh;
+  margin-left: 5vh;
+  float: left;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#name {
+  font-size: 35px;
+}
+
+#cs-student {
+  font-size: 25px;
+  color: rgba(9, 9, 10, 0.356);
+}
+
+#linkedin-pic{
+  width: 5vh;
+  height: 5vh;
+  border-radius: 5px;
+}
+
+#github-pic {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 5px;
+  margin-left: 7px;
+}
+
+#email-pic {
+  width: 7vh;
+  height: 5vh;
+  border-radius: 5px;
+  margin-left: 3px;
+}
+
+.header {
+  top: 0%;
+  height: 40vh;
+  margin-left: calc(50% - 50vw);
+  background: rgb(94, 197, 149);
+}
+
+a {
+  text-decoration: none;
+}
+
+#about-me-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  opacity: 85%;
+}
+
+.about-me {
+  display: inline-block;
+  margin-top: 10vh;
+  margin-left: 13vh;
+  background: rgb(190, 231, 230);
+  padding: 2vh;
+  border-radius: 5px;
+}
+
+#about-me-info {
+  line-height: 4vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.skills {
+  float: right;
+  background: rgb(238, 241, 223);
+  margin-right: 9vh;
+  margin-top: 10vh;
+  margin-left: 5vh;
+  padding: 2vh;
+  border-radius: 5px;
+}
+
+#skills-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  opacity: 85%;
+}
+
+#skills-about {
+  line-height: 4vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
