@@ -88,6 +88,7 @@ a {
   margin-top: 10vh;
   margin-left: 5vh;
   padding: 2vh;
+  margin-bottom: 1vh;
   border-radius: 5px;
 }
 
@@ -101,3 +102,50 @@ a {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
 }
+
+.level {
+  width: 100%; 
+  background-color: #ddd;
+}
+.lang-level {
+  text-align: right; 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  color: white; 
+}
+
+.python {
+  width: 60%; background-color: #4CAF50;
+}
+
+#lang, .lang-level {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.java {
+  width: 50%; background-color: #4CAF50;
+}
+
+.ocaml {
+  width: 70%; background-color: #4CAF50;
+}
+
+.htmlcss {
+  width: 70%; background-color: #4CAF50;
+}
+
+.js {
+  width: 50%; background-color: #4CAF50;
+}
+
+.game {
+  width: 60%; background-color: #4CAF50;
+}
+
+.web {
+  width: 50%; background-color: #4CAF50;
+}
+
