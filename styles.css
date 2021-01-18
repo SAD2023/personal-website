@@ -4,8 +4,8 @@ body {
 
 .headerpic {
   border-radius: 60%;
-  height: 30vh;
-  width: 30vh;
+  height: 225px;
+  width: 225px;
   margin-top: 5vh;
   margin-left: 10vh;
 }
@@ -52,9 +52,10 @@ body {
 
 .header {
   top: 0%;
-  height: 40vh;
+  height: 300px;
   margin-left: calc(50% - 50vw);
-  background: rgb(94, 197, 149);
+  background: rgb(190, 243, 230)
+  /** background: rgb(94, 197, 149); */
 }
 
 a {
@@ -67,10 +68,12 @@ a {
 }
 
 .about-me {
-  display: inline-block;
-  margin-top: 10vh;
-  margin-left: 13vh;
-  background: rgb(190, 231, 230);
+  display: block;
+  float: left;
+  width: 101vh;
+  margin-top: 50px;
+  margin-left: 11vh;
+  background: rgb(253, 209, 209);
   padding: 2vh;
   border-radius: 5px;
 }
@@ -82,11 +85,13 @@ a {
 }
 
 .skills {
-  float: right;
-  background: rgb(238, 241, 223);
-  margin-right: 9vh;
-  margin-top: 10vh;
-  margin-left: 5vh;
+  float: left;
+  width: 300px;
+  background: rgb(249, 245, 255);
+  margin-right: 2vh;
+  margin-top: 50px;
+  margin-left: 70px;
+  /* margin-left: 1070px; */
   padding: 2vh;
   margin-bottom: 1vh;
   border-radius: 5px;
@@ -148,4 +153,3 @@ a {
 .web {
   width: 50%; background-color: #4CAF50;
 }
-
