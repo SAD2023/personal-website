@@ -27,7 +27,8 @@ body {
 
 #cs-student {
   font-size: 25px;
-  color: rgba(9, 9, 10, 0.356);
+  /** color: rgba(9, 9, 10, 0.356); */
+  opacity: 60%;
 }
 
 #linkedin-pic{
@@ -159,7 +160,7 @@ a {
 .recent {
   margin-top: 330px;
   left: 11vh;
-  width: 101vh;
+  width: 102vh;
   border-radius: 10px;
   padding: 2vh;
   position: absolute;
@@ -249,4 +250,30 @@ li {
   width: 25px;
   float: left;
   margin-top: 2px;
+}
+
+.more {
+  right: 114vh;
+  width: 102vh;
+  border-radius: 10px;
+  padding: 2vh;
+  bottom: 300px;
+  position: relative;
+  display: inline-block;
+  height: 165px;
+  background: rgb(247, 207, 207);
+  margin-bottom: 10px;
+}
+
+#more-heading {
+ font-size: 30px;
+ opacity: 90%; 
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+#resume {
+  font-size: 23px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 1vh;
+  line-height: 25px;
 }
