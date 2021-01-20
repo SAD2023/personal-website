@@ -96,7 +96,7 @@ a {
   margin-top: 50px;
   margin-left: 123vh;
   /* margin-left: 1070px; */
-  padding: 2vh;
+  padding: 20px;
   border-radius: 5px;
 }
 
@@ -158,14 +158,14 @@ a {
 }
 
 .recent {
-  margin-top: 330px;
+  margin-top: 30px;
   left: 11vh;
   width: 102vh;
   border-radius: 10px;
   padding: 2vh;
-  position: absolute;
+  position: relative;
   display: inline-block;
-  height: 300px;
+  height: 320px;
   background: rgb(235, 216, 245);
   margin-bottom: 10px;
 }
@@ -205,9 +205,9 @@ a {
   height: 250px;
   width: 300px;
   margin-right: 4vh;
-  margin-top: 690px;
+  margin-top: 20px;
   margin-left: 123vh;
-  padding: 2vh;
+  padding: 10px;
   border-radius: 5px;
   background: white;
 }
@@ -253,16 +253,26 @@ li {
 }
 
 .more {
-  right: 114vh;
+  /**
+  right: 49vh;
   width: 102vh;
+  bottom: 80px;
   border-radius: 10px;
   padding: 2vh;
-  bottom: 300px;
-  position: relative;
-  display: inline-block;
+  position: absolute;
+  display: block;
   height: 165px;
   background: rgb(247, 207, 207);
   margin-bottom: 10px;
+*/
+  width: 102vh;
+  right: 370px;
+  border-radius: 10px;
+  padding: 2vh;
+  position: absolute;
+  display: block;
+  height: 180px;
+  bottom: 60px;
 }
 
 #more-heading {
