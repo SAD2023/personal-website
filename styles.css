@@ -291,7 +291,7 @@ li {
   line-height: 25px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 539px){
     .headerpic {
       display: none;
     }
@@ -314,6 +314,12 @@ li {
       border-radius: 5px;
       bottom: 2vh;
     }     
+
+    #about-me-info {
+      line-height: 4vh;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+    }
     .recent {
       margin-top: 30px;
       left: 18px;
@@ -327,6 +333,7 @@ li {
       overflow: auto;
       background: rgb(235, 216, 245);
       margin-bottom: 10px;
+      padding-bottom: 10px;
     }
 
     .skills {
@@ -373,4 +380,197 @@ li {
   }
 
 
-  @media only screen and (max-width: 768px){}
+  @media only screen and (max-width: 767px){
+    .headerpic {
+      display: none;
+    }
+
+    .header {
+      width: 100%;
+      border-radius: 20px;
+      height: 250px;
+    }
+
+    .about-me {
+      width: 80%;
+      display: block;
+      float: left;
+      margin-top: 50px;
+      margin-left: 18px;
+      margin-right: 5px;
+      /** background: rgb(253, 209, 209); */
+      background: rgb(200, 230, 250);
+      padding: 2vh;
+      border-radius: 5px;
+      bottom: 2vh;
+    }     
+
+    #about-me-info {
+      line-height: 4vh;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+    }
+    .recent {
+      margin-top: 30px;
+      left: 18px;
+      right: 5%;
+      width: 80%;
+      border-radius: 10px;
+      padding: 2vh;
+      position: relative;
+      display: inline-block;
+      min-height: 415px;
+      overflow: auto;
+      background: rgb(235, 216, 245);
+      margin-bottom: 10px;
+    }
+
+    .skills {
+      width: 80%;
+      border-radius: 15px;
+      position: relative;
+      right: 121vh;
+      margin-top: 20px;
+    }
+
+    .hobbies {
+      width: 80%;
+      border-radius: 15px;
+      float: left;
+      position: relative;
+      right: 120vh;
+      margin-top: 0px;
+    }
+
+    #project-description{
+      padding-right: 5px;
+    }
+
+    body {
+      align-content: center;
+      align-items: center;
+    }
+
+    #project-name {
+      line-height: 30px;
+    }
+    #project-description {
+      margin-top: 30px;
+    }
+
+    .more {
+      width: 300px;
+      border: 1px solid black;
+      position: relative;
+      right: 2vh;
+      top: 30px;
+      margin-bottom: 15px;
+    }
+
+
+  }
+
+  
+@media only screen and (max-width: 1024px){
+  .header-info {
+    margin-top: 4vh;
+    margin-left: 5vh;
+    float: left;
+    font-family: 'Fjalla One', sans-serif;
+  }
+
+  .headerpic {
+    border-radius: 60%;
+    height: 180px;
+    width: 180px;
+    margin-top: 5vh;
+    margin-left: 5vh;
+  }
+  
+  .header {
+    width: 100%;
+    border-radius: 20px;
+    height: 270px;
+  }
+
+  .about-me {
+    width: 80%;
+    display: block;
+    float: left;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 5px;
+    /** background: rgb(253, 209, 209); */
+    background: rgb(200, 230, 250);
+    padding: 2vh;
+    border-radius: 10px;
+    bottom: 2vh;
+  }     
+
+  #about-me-info {
+    line-height: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+  }
+
+  #skills-about {
+    font-size: 20px;
+  }
+  .recent {
+    margin-top: 30px;
+    left: 25px;
+    right: 5%;
+    width: 80%;
+    border-radius: 10px;
+    padding: 2vh;
+    position: relative;
+    display: inline-block;
+    min-height: 315px;
+    overflow: auto;
+    background: rgb(235, 216, 245);
+    margin-bottom: 10px;
+  }
+
+  .skills {
+    width: 80%;
+    border-radius: 15px;
+    position: relative;
+    right: 121vh;
+    margin-top: 20px;
+    padding: 25px;
+  }
+
+  .hobbies {
+    width: 80%;
+    border-radius: 15px;
+    float: left;
+    position: relative;
+    right: 120vh;
+    margin-top: 0px;
+  }
+
+  #project-description{
+    padding-right: 5px;
+    font-size: 18px;
+  }
+
+  body {
+    align-content: center;
+    align-items: center;
+  }
+
+  #project-name {
+    line-height: 30px;
+  }
+  #project-description {
+    margin-top: 30px;
+  }
+
+  .more {
+    position: relative;
+    right: 2vh;
+    top: 30px;
+    margin-bottom: 15px;
+  }
+  
+}
